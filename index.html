@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="icon" href="./assets/images/logo/logo.jpeg">
@@ -88,41 +89,42 @@
             </div>
             </div>
 
-            
-    <div id="imgv">
-    </div>
-    <div >
-        <img src="./brave.jpeg"  id="changeImg"/>
-    </div>
 
-    <button onclick={Bolu()}>Click Me</button>
+            <div id="imgv">
+            </div>
+            <!--<div>
+                <img src="./brave.jpeg" id="changeImg" />
+            </div> -->
+
+            <button onclick={Contact()}>Contact Form</button>
+            <button onclick={Contact()}>Hide Form</button>
         </section>
 
         <section style="background-color: rgb(119, 69, 7);">
-            <div class="style-container">
-            <form class="form-container">
-                <div class="label-name">
-                <label>Name</label>
-                <input type="text" name="username" required >
-                </div>
-                <div class="label-phonenumber">
-                <label> phone number</label>
-                <input type="number" name="contact" required>
-                </div>
-                <div class="label-email">
-                <label>Email</label>
-                <input type="text" name="email">
-            </div>
-            <div>
-                <button class="click-style">SUBMIT</button>
-            </div>
-            </form>
+            <div class="style-container-hide-the-form" id="contact-effect">
+                <form class="form-container">
+                    <div class="label-name">
+                        <label>Name</label>
+                        <input type="text" name="username" required>
+                    </div>
+                    <div class="label-phonenumber">
+                        <label> phone number</label>
+                        <input type="number" name="contact" required>
+                    </div>
+                    <div class="label-email">
+                        <label>Email</label>
+                        <input type="text" name="email">
+                    </div>
+                    <div>
+                        <button class="click-style">SUBMIT</button>
+                    </div>
+                </form>
             </div>
         </section>
     </main>
     <footer>
         <div class="footer-list">
-            <div  class="footer-first">
+            <div class="footer-first">
                 <ul class="list-typeFirst">
                     <h4>MENU</h4>
                     <li>Home</li>
@@ -132,7 +134,7 @@
                 </ul>
             </div>
             <div class="footer-second">
-                <ul class="list-typeSecond" >
+                <ul class="list-typeSecond">
                     <H4>ADDRESS</H4>
                     <li> P.O Box Lorem ipsum dolor sit amet</li>
                     <li>laboris nisi ut aliqui</li>
@@ -142,11 +144,11 @@
             <div class="footer-third">
                 <ul class="list-typeThird">
                     <h4>CONTACT</h4>
-                <li><img src="assets/images/faceboo.jpg" width=15px height=15px>@naiajatech_life</li>
-                <li><img src="assets/images/instagram.jpg" width=15px height=15px>@naiajatech_life</li>
-                <li><img src="assets/images/email logo.png" width="15px" height="15px">naijatechlife@gmail.com</li>
-                <li><img src="assets/images/phone.png" width="15px" height="15px">+653738889828</li>
-            </ul>
+                    <li><img src="assets/images/faceboo.jpg" width=15px height=15px>@naiajatech_life</li>
+                    <li><img src="assets/images/instagram.jpg" width=15px height=15px>@naiajatech_life</li>
+                    <li><img src="assets/images/email logo.png" width="15px" height="15px">naijatechlife@gmail.com</li>
+                    <li><img src="assets/images/phone.png" width="15px" height="15px">+653738889828</li>
+                </ul>
             </div>
             <div class="container">
                 <h4 class="container-header">NEWSLETTER</h4>
@@ -159,31 +161,28 @@
         const bolu = 'ade';
         // var x = 20;
         // var y = 12.10;
-    
+
         // var z = x + y;
         // console.log( 'output', z)
         console.log('name', bolu);
 
         let x = 'bo';
         let y = 'lu';
-        var z = x+y
+        var z = x + y
         console.log(z)
         // Logic
-     class Us{ 
-       Clieck(e) {
-        const clickable = getElementById('about-img');
-            e.target.onClick.clickable = addEventListener.onClick().innerHtml('Myname')
-       }
-    }
-        let j = (i= 0, ((i + 41) < 40) ? i+= 1: i = 10);
+        class Us {
+            Clieck(e) {
+                const clickable = getElementById('about-img');
+                e.target.onClick.clickable = addEventListener.onClick().innerHtml('Myname')
+            }
+        }
+        let j = (i = 0, ((i + 41) < 40) ? i += 1 : i = 10);
         console.log(j)
     </script>
-        <script>
-            function Bolu() {
-                //pic = document.getElementById('imgv');
-                //pic.innerHTML = "My name is bolu"
-                pict = document.getElementById('changeImg');
-                pict.src = './undraw_Finance_re_gnv2.png';
-            }
-        </script>
+    <script src="./index.js">
+
+    </script>
 </body>
+
+</html>
