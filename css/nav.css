@@ -1,0 +1,196 @@
+.nav-bar {
+    list-style-type: none;
+    display: flex;
+    margin-left:auto
+}
+
+.nav-header {
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.nav-bar--list {
+    margin: 10px;
+    margin-top: 5px
+}
+
+.nav-logo {
+    margin-top: 20px;
+    margin-right: auto;
+
+}
+
+.nav-button {
+    float: inline-end;
+    margin-left: auto;
+    margin-top:20px
+}
+
+body {
+    background-color: black;
+    color: white
+}
+
+.active {
+    color: greenyellow
+}
+
+.nav-button button {
+    background-color: green;
+    color: white;
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px
+}
+
+.image-border {
+    border-radius: 150px
+}
+
+.section-details {
+    margin-left: 65px;
+    margin-top: 75px;
+    display: flex
+}
+
+.text-color {
+    color: greenyellow;
+}
+
+.span-icon {
+    border-style: solid;
+    border-color: greenyellow;
+    border-width: 2px;
+    border-radius: 150px
+}
+
+.button-style {
+    background-color: green;
+    color: white;
+    border-style: none;
+    border-radius: 70px;
+    margin-top: 80px;
+    padding: 15px;
+}
+.text-position {
+    margin-right: 10px;
+    font-size: small;
+    align-self: center;
+    padding: 50px;
+}
+.about-section {
+    background-color: white;
+    color: black;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.head-style{
+    text-align: center;
+}
+#about-img{
+    display: flex;
+}
+.list-styles{
+display: flex;
+margin-top:60px
+}
+.life-style{
+    list-style-type: none;
+    background-color: #395E66;
+    }
+    .life-style .fa-meetup{
+ color: white;
+font-size: 50px;
+    }
+.life-style li{
+    margin-top: 10px;
+}
+.list-second{
+    margin-left: auto ;
+    list-style-type: none;
+    background-color: #9B9AAE;
+}
+.list-second .fa-microphone{
+    color:black;
+    font-size: 50px
+}
+.list-second li{
+    margin-top: 10px;
+}
+.list-third{
+    margin-left: auto ;
+    list-style-type:none;
+    background-color: #387D7A;
+}
+.list-third .fa-comments{
+    color:greenyellow;
+    font-size:50px
+}
+.list-third li{
+    margin-top: 10px;
+}
+.border{
+    border-style: solid;
+padding: 20px;
+   color: azure;
+   border-radius: 20px;
+   width: 170px;
+}
+
+ .fa .fa-check{
+    font-size:10px;
+    color:white 
+}
+.footer{
+    background-color: black;
+}
+.footer-third{
+    margin-right:auto;
+}
+.footer-second{
+    margin: auto;
+ margin-top: 3px;
+}
+.footer-first{
+    margin-left:auto;
+
+}
+.footer-list{
+    display: flex;
+    margin-top: 20px;
+}
+.container{
+    width: 180px;
+    height: 180px;
+    background-color: white;
+    margin-right: 70px;
+    border-radius: 10px;
+}
+.container-header{
+    color: black;
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.submit-style{
+    color: white;
+    background-color: red;
+    border: none;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+ .submit-style:hover{
+    background-color: black;
+    color: white;
+}
+.list-typeFirst{
+    list-style-type: none;
+}
+.list-typeSecond{
+    list-style-type: none;
+}
+.list-typeThird{
+    list-style-type: none;
+}
